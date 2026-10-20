@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Портфолио начинающего веб-разработчика: проекты, навыки и контакты.">
+  <title>Моё портфолио — веб-разработка</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="#top" aria-label="На главную">портфолио<span>.</span></a>
+      <nav class="main-nav" aria-label="Основная навигация">
+        <ul>
+          <li><a href="#about">Обо мне</a></li>
+          <li><a href="#projects">Проекты</a></li>
+          <li><a href="#skills">Навыки</a></li>
+          <li><a href="#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero content">
+      <div class="hero-copy">
+        <p class="eyebrow">ПОРТФОЛИО · 2026</p>
+        <h1>Создаю понятные и красивые веб-страницы</h1>
+        <p class="hero-text">Привет! Я изучаю веб-разработку и учусь превращать идеи в удобные сайты. Здесь собраны мои учебные проекты, основные навыки и планы на развитие.</p>
+        <a class="button" href="#projects">Посмотреть проекты <span aria-hidden="true">↘</span></a>
+      </div>
+      <div class="hero-art">
+        <img src="images/portfolio.svg" alt="Иллюстрация ноутбука с макетом веб-страницы">
+        <div class="art-note">Идея → дизайн → код</div>
+      </div>
+    </section>
+
+    <section id="about" class="section content">
+      <div class="section-heading">
+        <p class="eyebrow">01 / ЗНАКОМСТВО</p>
+        <h2>Обо мне</h2>
+      </div>
+      <div class="about-grid">
+        <p>Мне интересно, как устроены сайты: от структуры HTML до цветов, шрифтов и расположения элементов. Я постепенно осваиваю инструменты, которые помогают создавать страницы с нуля.</p>
+        <p>В работе я стараюсь следить за деталями, писать понятный код и проверять результат в разных браузерах. Для меня важно, чтобы сайт был не только красивым, но и удобным.</p>
+        <p>Моя ближайшая цель — собрать несколько законченных проектов, научиться увереннее использовать адаптивную вёрстку и продолжать изучать JavaScript.</p>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects-section">
+      <div class="content">
+        <div class="section-heading">
+          <p class="eyebrow">02 / ИЗБРАННОЕ</p>
+          <h2>Учебные проекты</h2>
+          <p class="section-intro">Небольшие работы, на которых я тренирую структуру страницы, визуальный стиль и адаптивную сетку.</p>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <div class="card-number">01</div>
+            <h3>Лендинг кофейни</h3>
+            <p>Страница с меню, описанием атмосферы и контактной информацией. Практика типографики и цветовых сочетаний.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span></div>
+          </article>
+          <article class="card">
+            <div class="card-number">02</div>
+            <h3>Путеводитель</h3>
+            <p>Карточки интересных мест, краткие описания и удобная навигация для тех, кто планирует прогулку по городу.</p>
+            <div class="tags"><span>Grid</span><span>Flexbox</span></div>
+          </article>
+          <article class="card">
+            <div class="card-number">03</div>
+            <h3>Каталог книг</h3>
+            <p>Макет книжной полки с жанрами, списком рекомендаций и таблицей прочитанных книг.</p>
+            <div class="tags"><span>Семантика</span><span>Адаптивность</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section content skills-grid">
+      <div>
+        <div class="section-heading">
+          <p class="eyebrow">03 / ИНСТРУМЕНТЫ</p>
+          <h2>Что изучаю</h2>
+        </div>
+        <p>Я развиваю базовые навыки и закрепляю их на практике. Каждый новый проект помогает лучше понять, как взаимодействуют разметка, стили и содержимое страницы.</p>
+        <ul class="skill-list">
+          <li>Семантическая HTML-разметка</li>
+          <li>CSS: цвета, шрифты и отступы</li>
+          <li>Flexbox и CSS Grid</li>
+          <li>Адаптивный дизайн</li>
+        </ul>
+      </div>
+      <div class="steps-panel">
+        <h3>Как я работаю над проектом</h3>
+        <ol>
+          <li><span>01</span> Определяю цель и содержание страницы.</li>
+          <li><span>02</span> Создаю структуру HTML.</li>
+          <li><span>03</span> Добавляю стили и адаптивность.</li>
+          <li><span>04</span> Проверяю ссылки и отображение.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="table" class="section table-section">
+      <div class="content">
+        <div class="section-heading">
+          <p class="eyebrow">04 / ПРОГРЕСС</p>
+          <h2>Таблица навыков</h2>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Навык</th><th>Уровень</th><th>Следующий шаг</th></tr></thead>
+            <tbody>
+              <tr><td>HTML</td><td><span class="level">Уверенная база</span></td><td>Семантика и доступность</td></tr>
+              <tr><td>CSS</td><td><span class="level">Базовый</span></td><td>Сложные макеты</td></tr>
+              <tr><td>JavaScript</td><td><span class="level">Начальный</span></td><td>Основы интерактивности</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="table-note">Уровни указаны для учебного портфолио и будут обновляться по мере практики.</p>
+      </div>
+    </section>
+
+    <section id="contacts" class="contact-section content">
+      <div>
+        <p class="eyebrow">05 / НА СВЯЗИ</p>
+        <h2>Продолжим знакомство?</h2>
+        <p>Посмотрите документацию, чтобы узнать больше о технологиях, которые я изучаю, или напишите мне по учебным вопросам.</p>
+      </div>
+      <div class="contact-links">
+        <a href="https://developer.mozilla.org/ru/docs/Web/HTML" target="_blank" rel="noopener noreferrer">Справочник HTML ↗</a>
+        <a href="https://developer.mozilla.org/ru/docs/Web/CSS" target="_blank" rel="noopener noreferrer">Справочник CSS ↗</a>
+        <a href="#top">Вернуться наверх ↑</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="content footer-inner">
+      <span>© 2026 · Учебное портфолио</span>
+      <span>Сделано с интересом к вебу <span class="footer-dot">●</span></span>
+    </div>
+  </footer>
+</body>
+</html>
